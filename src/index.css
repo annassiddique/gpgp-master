@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for lightgallery */
+.custom-wrapper-gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.custom-wrapper-gallery a {
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .custom-wrapper-gallery {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
+
+    .custom-wrapper-gallery a {
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+  }
