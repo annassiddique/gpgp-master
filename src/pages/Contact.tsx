@@ -5,7 +5,7 @@ import InvitationForm from "../components/contribute/Invitation/InvitationForm";
 
 export default function Contact() {
   const HeroContent = {
-    heading: "Contact",
+    heading: "Contacts",
   };
 
   const formFields = [
@@ -56,8 +56,8 @@ export default function Contact() {
       <ContributeHero
         HeroContent={HeroContent}
         classes={{
-          container: "",
-          image: "opacity-40 md:z-[-2px] z-[-4px]",
+          container: "mb-[-400px]",
+          image: "opacity-40 blur-md md:z-[-2px] z-[-4px]",
           heading: " mb-9 sm:mb-16 ",
           paragraph: "",
         }}
